@@ -1,0 +1,11 @@
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  display: flex;
+  background-color: bisque;
+  justify-content: space-evenly;
+  width: 24%;
+}

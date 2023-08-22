@@ -1,0 +1,35 @@
+body,
+asides {
+  margin: 0;
+}
+
+.hero {
+  display: flex;
+}
+
+aside {
+  background-color: black;
+  width: 10em;
+  height: 100vh;
+}
+
+aside ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+aside li {
+  padding: 1em;
+  list-style: none;
+}
+
+aside a {
+  text-decoration: none;
+  color: white;
+}
+
+aside a:hover {
+  color: #ccc;
+}
